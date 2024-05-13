@@ -1,0 +1,15 @@
+{
+  "name": "backend_dev",
+  "version": "1.0.0",
+  "description": "BAckend Development Learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Backend"
+  ],
+  "author": "Raja",
+  "license": "ISC"
+}
