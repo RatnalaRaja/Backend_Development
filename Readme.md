@@ -1,49 +1,56 @@
-###Backend Development
+### Backend Development
 Learning
 -
-
-\# URL Shortener
+# URL Shortener
 
 A simple and efficient URL shortener application that allows users to convert long URLs into short, easily shareable links.
 
-\---
+---
 
-\## Features
+## Features
 
-\- Shorten long URLs into compact links
+- Shorten long URLs into compact links
+- Redirect from short URLs to original URLs
+- Automatically generate unique short codes
+- RESTful API support (optional)
+- Analytics support (optional: click counts, expiry, etc.)
 
-\- Redirect from short URLs to original URLs
+---
 
-\- Automatically generate unique short codes
+## Built With
 
-\- RESTful API support (optional)
+- Backend: Node.js / Express
+- Database: MongoDB / SQLite / PostgreSQL
 
-\- Analytics support (optional: click counts, expiry, etc.)
+> Replace these with your actual technologies used.
 
-\---
+---
 
-\## Built With
+## Installation
 
-\- Backend: Node.js / Express
+### 1. Clone the Repository
 
-\- Database: MongoDB / SQLite / PostgreSQL
 
-\> Replace these with your actual technologies used.
+git clone https://github.com/your-username/url-shortener.git
+cd url-shortener
+- Database: MongoDB / SQLite / PostgreSQL
 
-\---
+> Replace these with your actual technologies used.
 
-\## Installation
+---
 
-\### 1. Clone the Repository
+## Installation
+
+### 1. Clone the Repository
 
 git clone https://github.com/your-username/url-shortener.git
 
 cd url-shortener
 
-\### 2. Install Dependencies
+### 2. Install Dependencies
 
 npm install
 
-\### 3. Run the Application
+### 3. Run the Application
 
 npm start
